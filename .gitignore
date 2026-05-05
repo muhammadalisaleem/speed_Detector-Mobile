@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+.env/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# JetBrains
+.idea/
+
+# Flutter/Dart
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+.packages
+pubspec.lock
+
+# Android build
+**/build/
+**/app/build/
+
+# Generated files
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.egg
+*.whl
+
+# Local environment
+.local/
+
+# Temporary files
+*.tmp
+*~

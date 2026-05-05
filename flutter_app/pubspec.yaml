@@ -1,0 +1,21 @@
+name: speed_app
+description: A minimal Flutter app that streams camera frames to a Python backend and displays speeds.
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.0
+  web_socket_channel: ^2.4.0
+  image: ^3.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# For running on Android/iOS you'll need platform setup described in README.md
